@@ -1,0 +1,762 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 135px;
+    border: 1px solid black;
+    transition: 1.5s;
+}
+
+.fot_lf img {
+    width: 60px;
+    margin: 25px;
+    margin-top: 35px;
+}
+
+.fot_lf span {
+    margin-right: 100px;
+    margin-top: 90px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.fot_lf {
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.navigation {
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navigation ul li {
+    list-style: none;
+    transition: 1.5s;
+}
+
+.navigation ul li:hover {
+    transform: translateX(15px);
+    color: #1d1d1d;
+}
+
+.jobs {
+    width: 200px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+}
+
+.jobs2 {
+    display: none;
+}
+
+.media_span {
+    display: none;
+}
+
+
+/*✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ MEDIA PHONE ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
+
+
+/*✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ MEDIA PHONE ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
+
+
+/*✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ MEDIA PHONE ✪✪✪✪✪✪✪✪✪✪✪✪✪✪11✪✪✪*/
+
+@media (min-width: 0px) and (max-width: 298px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 302px;
+    }
+    .jobs {
+        margin: 0;
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 200px;
+        /*
+        margin-bottom: 100px;
+        margin-top: 8px;
+*/
+        position: absolute;
+        right: 140px;
+        top: 169px;
+    }
+    .fot_lf img {
+        margin-top: 63px;
+    }
+    .media_span {
+        /*        margin-top: 90px;*/
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        /*        margin-top: 100px;*/
+        margin-right: 10px;
+        font-size: 12px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 299px) and (max-width: 320px) {
+    .footer {
+        padding-bottom: 300px;
+    }
+    .jobs {
+        margin: 0;
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    ..navigation ul li:hover {
+        color: red;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 200px;
+        /*
+        margin-bottom: 100px;
+        margin-top: 8px;
+*/
+        position: absolute;
+        right: 140px;
+        top: 169px;
+    }
+    .fot_lf img {
+        margin-top: 63px;
+    }
+    .media_span {
+        /*        margin-top: 90px;*/
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        margin-top: 100px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 349px) {
+    .footer {
+        padding-bottom: 300px;
+    }
+    .jobs {
+        margin: 0;
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 200px;
+        /*
+        margin-bottom: 100px;
+        margin-top: 8px;
+*/
+        position: absolute;
+        right: 140px;
+        top: 169px;
+    }
+    .fot_lf img {
+        margin-top: 63px;
+    }
+    .media_span {
+        /*        margin-top: 90px;*/
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        margin-top: 100px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    .navigation a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 413px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 220px;
+        position: absolute;
+        right: 190px;
+        top: 203px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        margin-top: 140px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 440px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 220px;
+        position: absolute;
+        right: 210px;
+        top: 203px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 441px) and (max-width: 500px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 220px;
+        position: absolute;
+        right: 240px;
+        top: 203px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 539px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 220px;
+        position: absolute;
+        right: 280px;
+        top: 203px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 599px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 220px;
+        position: absolute;
+        right: 320px;
+        top: 203px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 220px;
+        position: absolute;
+        right: 400px;
+        top: 203px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 690px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 220px;
+        position: absolute;
+        right: 450px;
+        top: 203px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 691px) and (max-width: 750px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 220px;
+        position: absolute;
+        right: 500px;
+        top: 203px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 820px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 220px;
+        position: absolute;
+        right: 570px;
+        top: 203px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 900px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 220px;
+        position: absolute;
+        right: 620px;
+        top: 203px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1000px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 250px;
+        position: absolute;
+        right: 650px;
+        top: 183px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1100px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 250px;
+        position: absolute;
+        right: 750px;
+        top: 183px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1199px) {
+    .footer {
+        padding-bottom: 300px;
+        height: 350px;
+    }
+    .jobs {
+        display: none;
+    }
+    .fot_lf span {
+        display: none;
+    }
+    .navigation ul li {
+        transition: 100s;
+        transition-delay: 10000s;
+        padding-top: 10px;
+    }
+    .navigation ul li:first-child {
+        padding-top: 10px;
+    }
+    .navigation a {
+        font-size: 25px;
+    }
+    .jobs2 {
+        display: inline-block;
+        width: 250px;
+        position: absolute;
+        right: 850px;
+        top: 183px;
+    }
+    .fot_lf img {
+        margin-top: 49px;
+        width: 85px;
+    }
+    .media_span {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        display: inline;
+        float: right;
+        top: 320px;
+        right: 10px;
+        position: absolute;
+    }
+}
